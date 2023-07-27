@@ -9,4 +9,6 @@ import Foundation
 
 enum CellName {
     static let todoCell = "ToDoCell"
+    static let case2Cell = "case2Cell"
+    static let case3Cell = "case3Cell"
 }

@@ -1,5 +1,5 @@
 //
-//  TodoTableViewController.swift
+//  Case2TableViewController.swift
 //  TableViewController
 //
 //  Created by 정준영 on 2023/07/27.
@@ -7,7 +7,8 @@
 
 import UIKit
 
-class TodoTableViewController: UITableViewController {
+class Case2TableViewController: UITableViewController {
+
     let list: [Int: [String]] = [0: ["1번섹션"], 1: ["장보기", "영화보기", "잠자기", "코드보기"]]
 
     override func viewDidLoad() {
@@ -36,14 +37,19 @@ class TodoTableViewController: UITableViewController {
     
     // 2. 셀 디자인 및 데이터 처리
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: CellName.todoCell)!
-        cell.textLabel?.text = "\(indexPath)위치에 있는 셀"
-        cell.textLabel?.font = .boldSystemFont(ofSize: 20)
+        let cell = tableView.dequeueReusableCell(withIdentifier: CellName.case2Cell)!
+        var content = cell.defaultContentConfiguration()
+        
+        content.text = list[indexPath.section]?[indexPath.row]
+        content.secondaryText = "\(indexPath)에 위치한 셀"
+        content.image = UIImage(systemName: "person.circle.fill")
+        
+        cell.contentConfiguration = content
         return cell
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
+        return 70
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
