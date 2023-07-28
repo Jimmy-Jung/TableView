@@ -16,7 +16,6 @@
 		558BBD122A720212007BB178 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558BBD112A720212007BB178 /* TableViewController.swift */; };
 		558BBD142A721353007BB178 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558BBD132A721353007BB178 /* CustomTableViewController.swift */; };
 		558BBD162A7232B9007BB178 /* CellName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558BBD152A7232B9007BB178 /* CellName.swift */; };
-		558BBD182A7232F1007BB178 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558BBD172A7232F1007BB178 /* TodoTableViewController.swift */; };
 		558BBD1A2A728E48007BB178 /* SettingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558BBD192A728E48007BB178 /* SettingStoryboard.storyboard */; };
 		558BBD1F2A72A127007BB178 /* Case2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558BBD1E2A72A127007BB178 /* Case2TableViewController.swift */; };
 		558BBD212A72A710007BB178 /* Case3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558BBD202A72A710007BB178 /* Case3TableViewController.swift */; };
@@ -34,7 +33,6 @@
 		558BBD112A720212007BB178 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		558BBD132A721353007BB178 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		558BBD152A7232B9007BB178 /* CellName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellName.swift; sourceTree = "<group>"; };
-		558BBD172A7232F1007BB178 /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
 		558BBD192A728E48007BB178 /* SettingStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingStoryboard.storyboard; sourceTree = "<group>"; };
 		558BBD1E2A72A127007BB178 /* Case2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case2TableViewController.swift; sourceTree = "<group>"; };
 		558BBD202A72A710007BB178 /* Case3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case3TableViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				558BBCFF2A72010F007BB178 /* ViewController.swift */,
 				558BBD112A720212007BB178 /* TableViewController.swift */,
 				558BBD132A721353007BB178 /* CustomTableViewController.swift */,
-				558BBD172A7232F1007BB178 /* TodoTableViewController.swift */,
 			);
 			name = "수업";
 			path = "수업";
@@ -190,7 +187,6 @@
 				558BBCFC2A72010F007BB178 /* AppDelegate.swift in Sources */,
 				558BBCFE2A72010F007BB178 /* SceneDelegate.swift in Sources */,
 				558BBD122A720212007BB178 /* TableViewController.swift in Sources */,
-				558BBD182A7232F1007BB178 /* TodoTableViewController.swift in Sources */,
 				558BBD212A72A710007BB178 /* Case3TableViewController.swift in Sources */,
 				558BBD162A7232B9007BB178 /* CellName.swift in Sources */,
 				558BBD1F2A72A127007BB178 /* Case2TableViewController.swift in Sources */,
