@@ -1,4 +1,4 @@
-# TableViewController
+# TableView
 SeSAC 7월27일(목) 과제
 
 # Case1
