@@ -10,7 +10,7 @@ import UIKit
 class Case3TableViewController: UITableViewController {
 
     @IBOutlet weak var titleTextField: UITextField!
-    
+    // list
     var list: [Int: [String]] = [0: ["1번섹션"], 1: ["장보기", "영화보기", "잠자기", "코드보기"]]
 
     override func viewDidLoad() {
